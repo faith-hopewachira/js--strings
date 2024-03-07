@@ -1,16 +1,16 @@
-//EXTRACTING THE LAST FOUR LETTERS
+//Q1
 let x = "extravaganza";
 console.log(x[8], x[9],x[10],x[11]);
 
 
-//INSERTING A STRING AT THE FOURTH INDEX
+//Q2
 const food = "The quick fox jumped over the lazy dog";
 let r = "eat";
 const food2 = `The ${r} quick fox jumped over the lazy dog`;
 console.log({food2});
 
 
-//COUNTING NUMBER OF TIMES A STRING APPEARS
+//Q3
 const story= "The quick brown fox jumps over the lazy dog";
 let f ="The quick brown fox jumps over the lazy dog";
 console.log(
@@ -19,7 +19,7 @@ console.log(
     (f.match(/the/g)).length);
 
 
-//FINDING WORDS IN A STRING
+//Q4
 const string1 = "The pupils are reading in the library";
 let t = string1.indexOf('are');
 console.log({t});
@@ -29,7 +29,7 @@ let g = string1.indexOf('sitting');
 console.log({g});
 
 
-//CONVERTING STRINGS
+//Q5
 let a = "wonderful";
 console.log(a.toUpperCase());
 
